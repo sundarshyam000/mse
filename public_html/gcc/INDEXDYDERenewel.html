@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<!-- Mirrored from www.mscepune.in/gcc/INDEXDYDERenewel.HTM by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 19:01:42 GMT -->
+<head>
+    <title>Login</title>
+   
+     <link rel="stylesheet" href="CSS/gcc.css" type="text/css" />
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>महाराष्ट्र राज्य परीक्षा परिषद </title>
+  <!--BootStrap & Fontawesome Css-JS Start-->
+<link href="fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet" />
+<link href="fontawesome-free-6.2.1-web/css/all.min.css" rel="stylesheet" />
+<script src="fontawesome-free-6.2.1-web/js/all.min.js"></script>
+<script src="fontawesome-free-6.2.1-web/js/all.js"></script>
+<link href="Bootstrap5.3/Content/bootstrap.css" rel="stylesheet" />
+<link href="Bootstrap5.3/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="Bootstrap5.3/Content/CustomStyle.css" rel="stylesheet" />
+<script src="Bootstrap5.3/Scripts/bootstrap.min.js"></script>
+<script src="Bootstrap5.3/Scripts/bootstrap.js"></script>
+<script src="Bootstrap5.3/Scripts/poper.js"></script>
+ <!--BootStrap & Fontawesome Css-JS Ends-->
+  <!--Title logo S-->
+  <link rel="icon" href="Assests/mscemain.png" type="image/icon type">
+<script type="text/javascript">
+function setfocus()
+{
+var txtInstituteNo = document.getElementById('txtInstituteNo');
+txtInstituteNo.focus();
+}
+
+function validate_required(field,alerttxt)
+{
+with (field)
+{
+    if (value == null || value == "" || value == 0)
+  {alert(alerttxt);return false;}
+else {return true}
+}
+}
+
+function validate_form()
+{
+var txtInstituteNo = document.getElementById('txtInstituteNo');
+var txtPassWord = document.getElementById('txtPassWord');
+var hfJavaScript = document.getElementById('hfJavaScript');
+var SelDept = document.getElementById('SelDept');
+hfJavaScript.value='111';
+    if (validate_required(txtInstituteNo,"User Name must be filled out!")==false)
+       { txtInstituteNo.focus(); return false;}
+    if (validate_required(txtPassWord,"User Password must be filled out!")==false)
+        { txtPassWord.focus(); return false; }
+        
+}
+
+function QueryStringParam(ParamName)
+ {
+Param = window.location.search.substring(1);
+ParamNext = Param.split("&");
+for (i=0;i<ParamNext.length;i++) {
+ParamNValue = ParamNext[i].split("=");
+if (ParamNValue[0] == ParamName) {
+var msg = document.getElementById('divmsg');
+var msg1 = document.getElementById('divmsg1');
+msg.style.display='block';
+msg1.style.display='block';
+//msg.style.visibility='visible';
+//msg1.style.visibility='visible';
+return ParamNValue[1];
+}
+}
+}
+</script>
+</head>
+<body onload="javascript:QueryStringParam('psw')"> 
+
+<form id="frmlogin" method="post" action="https://www.mscepune.in/gcc/MenuDYDEInfo_RenewelCTA.aspx"  onsubmit="return validate_form()" defaultbutton="cmdLogin" style="padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; border-top-style: none; padding-top: 0px; border-right-style: none; border-left-style: none; border-bottom-style: none">
+    <div style="width: 100%; height: 100%">
+         <div class="container-fluid">
+  <div style="display: flex; justify-content: center; align-items: center; background-image:url('Assests/bg.png');">
+    <img src="Assests/fav-logo.gif" alt="Logo 1" style="height: 200px;">
+    <span style="margin: 0 10px;" class="p-2 text-black text-center text-white fs-3 fw-bold"> <br />
+      महाराष्ट्र राज्य परीक्षा परिषद,<br /> पुणे <br />MAHARASHTRA STATE COUNCIL OF EXAMINATION,<br />PUNE
+      <br /></span>
+    <img src="Assests/smj.png" alt="Logo 2" style="height: 170px;">
+  </div>
+</div>
+        <table id="tblLogin" cellpadding="0" cellspacing="0" style="width: 100%">
+            <tr>
+                <td style="height: 70px; width: 958px;">
+                    <div id="divmsg" style="display: none; font-weight: bold; font-size: 17px; color: red;
+                        font-family: Arial">
+                        Error
+                    </div>
+                    <div id="divmsg1" style="display: none; font-size: 14px; color: red; font-family: Arial">
+                        Your username and/or password are invalid.
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" class="tdCenter" style="height: 226px; width: 958px;">
+                    <div style="width: 300px">
+                        <table cellpadding="0" cellspacing="0" class="GridContaintMain" style="width: 100%;
+                            height: 100%">
+                            <tr>
+                                <td class="GridContaintHD">
+                                    &nbsp;&nbsp;</td>
+                                <td align="left" class="GridContaintHDbg" valign="middle">
+                                    <span class="lblTitleMenuWhite" style="font-size: 15px">Login</span></td>
+                                <td class="GridContaintHD1">
+                                    &nbsp;&nbsp;</td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" style="width: 100%; height: 100%; border-right: #cccccc 1px solid; border-left: #cccccc 1px solid; border-bottom: #cccccc 1px solid; background-color: whitesmoke;">
+                            <tr>
+                                <td width="5">
+                                </td>
+                                <td align="center" valign="middle">
+                                    <table cellpadding="0" cellspacing="0" style="text-align: center">
+                                        <tr>
+                                            <td align="left">
+                                                &nbsp;</td>
+                                            <td class="tdColSep" style="width: 11px">
+                                            </td>
+                                            <td class="tdColValue">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="height: 24px">
+                                                User ID
+                                            </td>
+                                            <td class="tdColSep" style="width: 11px; height: 24px;">
+                                                :</td>
+                                            <td class="tdColValue" style="height: 24px">
+                                                <input class="LoginTextBox" id="txtInstituteNo" name="txtInstituteNo" style="width: 160px" type="text" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                &nbsp;</td>
+                                            <td class="tdColSep" style="width: 11px">
+                                            </td>
+                                            <td class="tdColValue">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="height: 4px">
+                                                Password</td>
+                                            <td class="tdColSep" style="width: 11px; height: 4px;">
+                                                :</td>
+                                            <td class="tdColValue" style="height: 4px">
+                                                <input class="LoginTextBox"  id="txtPassWord" name="txtPassWord" style="width: 160px" type="password" /></td>
+                                                 <td class="tdColSep" style="width: 11px; height: 4px;">
+                                            </td>
+                                        </tr>
+                                        
+                                           
+                                       
+                                        <tr>
+                                            <td>
+                                                &nbsp;</td>
+                                            <td class="tdColSep" style="width: 11px">
+                                            </td>
+                                            <td align="left" class="tdColValue">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td class="tdColSep" style="width: 11px">
+                                            </td>
+                                            <td align="left" class="tdColValue">
+                                                <input id="cmdLogin" class="imgbtn" onclick="return cmdLogin_onclick()" style="width: 70px"
+                                                    type="submit" value="Login" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                &nbsp;</td>
+                                            <td class="tdColSep" style="width: 11px">
+                                            </td>
+                                            <td align="right" class="tdColValue">
+                                                <input id="hfJavaScript" name="hfJavaScript" type="hidden" /></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="5">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+<!--                    पासवर्ड माहिती करून घेण्यासाठी येथे क्लिक करा?  <a href="verifyDTed.aspx" target =_self >click here </a></td>
+-->            </tr>
+        </table>
+    </div>
+<script >
+setfocus();
+</script>
+    
+</form>
+</body>
+
+<!-- Mirrored from www.mscepune.in/gcc/INDEXDYDERenewel.HTM by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 19:01:42 GMT -->
+</html>

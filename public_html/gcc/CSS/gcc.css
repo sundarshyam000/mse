@@ -1,0 +1,219 @@
+﻿body 
+{
+/*font-family:Arial, Helvetica, sans-serif;*/
+font-family:Times New Roman;
+margin:10px 10px 10px 10px;
+}
+
+.dv1
+{
+	border :solid 1px black;
+	background-color : #ccffff ;
+	font-family :Times New Roman;
+	font-size :15px;
+	padding-right: 4px; 
+	padding-left: 3px; 
+	padding-bottom: 3px; 
+	padding-top: 3px; 
+	width: 250px; 
+	/*color: red;*/
+	text-align  :left;
+}      
+
+.dv11
+{
+   border :solid 1px black;
+   background-color : #ccffff ;
+   font-family :Times New Roman;
+   font-size :13px;
+   width :140px;
+   text-align  :left;
+}      
+
+.dv12
+{
+padding-right: 4px; 
+padding-left: 3px; 
+padding-bottom: 3px; 
+padding-top: 3px; 
+width: 250px; 
+color: red;
+background-color: #ccffff; 
+}  
+
+.gdHD
+{
+	background-image: url(../Images/gr.html);
+}
+
+A:link {
+font-family:Times New Roman;
+color:#0e6380;
+text-decoration:none;
+cursor:pointer;
+font-size:14px;
+}
+
+A:visited {
+font-family:Times New Roman;
+color:#0e6380;
+text-decoration:none;
+cursor:pointer;
+font-size:14px;
+}
+
+A:hover {
+font-family:Times New Roman;
+color:Maroon;
+text-decoration:none;
+cursor:pointer;
+font-size:14px;
+}
+
+A:active {
+font-family:Times New Roman;
+color:#0e6380;
+text-decoration:none;
+cursor:pointer;
+font-size:14px;
+}
+
+input.Btn:hover
+{
+background:url("../Images/imgbtnbg.html");
+background-position:right top;
+background-color:#b1c1d5;
+}
+
+.Btn
+{
+background:url("../Images/imgbtnbg.html");
+background-position:left bottom;
+background-repeat:repeat-x;
+background-color:#b1c1d5;
+font-family:Arial,helvetica,sans-serif;
+/*font-size:11px;*/
+/*font-weight:bold;*/
+/*background-color:#5b87a5;*/
+border:1px solid gray;
+!border:1px outset gray;
+/*border:black 1px solid*/
+/*border:#3a6ea5 1px solid;*/
+/*color:whitesmoke;*/
+color:black;
+height:20px;
+text-align:center;
+cursor:pointer;
+vertical-align:middle;
+margin-left:5px;
+}
+
+.GridContaintMain
+{
+	/*background-image:url(../Images/gridbg.JPG);*/
+	background-color:#e5e8ed;
+	border:solid 1px  #cccccc;
+}
+
+.GridContaint
+{
+	/*background-image:url(../Images/gridbg.JPG);*/
+	background-color:#e5e8ed;
+	border-bottom :solid 2px #b0c4d0;
+	border-left :solid 2px #b0c4d0;
+	border-right :solid 2px #b0c4d0;
+}
+
+.GridContaintHD
+{
+	background:url("../Images/TitleCenter.html");
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:21px;
+	width:5px;
+}
+
+.GridContaintHD1
+{
+	background:url("../Images/TitleCenter.html");
+	background-repeat:no-repeat;
+	background-position:right top;
+	height:21px;
+	width:5px;
+}
+
+.GridContaintHDbg
+{
+	background:url("../Images/TitleCenter.html");
+	background-repeat:repeat-x;
+	height:21px;
+	width:100%;
+}
+
+#tblLogin
+{
+width:100%;
+font-family:Arial, Helvetica, sans-serif;
+/*border:solid 2px #F7F6F3;*/
+}
+/*
+#tblLogin .tdColSep
+{
+text-align:Center;
+font-weight:bold;
+width:10px;
+}
+*/
+#tblLogin .tdColName
+{
+text-align:right;
+/*font-weight:bold;*/
+/*width:20%;*/
+}
+
+#tblLogin .tdColValue
+{
+text-align:left;
+/*width:20%;*/
+}
+
+#tblLogin .tblRowStyle
+{
+background-color:#F7F6F3;
+color:Black;
+Height:20px;
+}
+
+#tblLogin .tblAlternatingRowStyle
+{
+ background-color:White;
+ color:Black;
+ /*color:#284775;*/
+ Height:20px;
+}
+
+#tblLogin .LoginTextBox {
+height:15px;
+font-family:Arial,Tahoma;
+/*font-size:12px;*/
+width:160px;
+border:1px solid #b0c4d0;
+/*border:1px solid gray;*/
+/*border-top:none;border-left:1px solid gray;
+border-right:1px solid gray;
+border-bottom:1px solid gray;
+background-image:url("../images/TextBoxbg.JPG");
+background-repeat:repeat-x;*/
+}
+
+.lblTitleMenuWhite
+{
+font-family:Arial;
+/*color:Navy;*/
+color:black;
+font-weight:bold;
+/*font-size:12px;*/
+padding-left:5px;
+display:inline-block;
+text-align:left;
+}
